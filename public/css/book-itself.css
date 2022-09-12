@@ -1,0 +1,186 @@
+.book {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5rem;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.book-info {
+    flex-basis: 35%;
+
+    margin: 10px;
+    margin-left: 20px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.book-cover {
+    flex-basis: 100%;
+    align-self: center;
+}
+.book-cover img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.book-info2 {
+    flex-basis: 65%;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 5px solid transparent;
+    border-color: rgba(225, 225, 225, 0.855);
+    border-radius: 20px;
+}
+.book-info2 h5 {
+    font-weight: bolder;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.book-info2 h4 {
+    font-weight: bolder;
+    color: rgb(42, 42, 42);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.hide {
+    display: none;
+}
+h4:hover + .hide {
+    display: block;
+    color: rgb(173, 173, 173);
+}
+.book-info2 ul li {
+    color: rgb(110, 110, 110);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.book-info2 p {
+    text-indent: 10px;
+    text-align: justify;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+/*SELECT PLAUKTU BELOW*/
+.pievienot-book-savam-plauktam {
+    margin-left: 5vw;
+}
+select {
+    background-color: #727272;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+.pievienot-book-savam-plauktam form input {
+    margin-left: 1rem;
+    background-color: #727272;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+a.button {
+    float: right;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #727272;
+    border: 1px solid #727272;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    padding: 5px;
+}
+/*SELECT PLAUKTU ENDS*/
+/*Atsauksmes zem grāmatas skats*/
+.flexbox {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 3rem;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.atsauksme-autors {
+    flex-basis: 20%;
+
+    margin: 10px;
+    margin-left: 50px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.profile-picture img {
+    flex-basis: 80%;
+    align-self: center;
+    width: 100%;
+    border-radius: 20px;
+    max-height: 150px;
+    max-width: 150px;
+}
+.autora-vards {
+    flex-basis: 20%;
+}
+.autora-vards h4 {
+    margin-top: 1rem;
+    font-weight: bolder;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.atsauksme {
+    flex-basis: 80%;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 5px solid transparent;
+    border-color: rgba(225, 225, 225, 0.855);
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 150px;
+}
+.atsauksme h5 {
+    font-weight: bolder;
+    color: rgb(42, 42, 42);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.atsauksme h4 {
+    font-weight: bolder;
+    color: rgb(42, 42, 42);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.atsauksme p {
+    text-indent: 10px;
+    text-align: justify;
+    color: rgb(110, 110, 110);
+    font-size: 14px;
+}
+/*Atsauksmes zem grāmatas skats beidzas*/

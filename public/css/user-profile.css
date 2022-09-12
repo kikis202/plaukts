@@ -1,0 +1,188 @@
+/*VISA KOPĒJĀ PROFILE SADAĻA BELOW*/
+
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+body {
+    color:black !important;
+    font-family: 'Joan', serif !important;
+    font-size: 15px !important;
+    overflow-x: hidden;
+    background-color: rgb(231, 231, 231);
+}
+.profile{
+    width:90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:1rem; /*relative size to the font size of the root  element(body font size)*/
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius:25px;
+}
+.grid-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+/*VISA KOPĒJĀ PROFILA SADAĻA BEIDZAS*/
+/*PROFILE SECTION BELOW*/
+.lietotaja-info{
+    flex-basis: 25%;
+
+    border: 5px solid transparent;
+    border-color:rgba(225, 225, 225, 0.855);
+    border-radius: 20px;
+    margin:30px;
+    margin-left:50px;
+    padding:20px;
+
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.profile-img{
+    position:relative; /**/
+    flex-basis: 100%;
+    align-self: center;
+}
+.profile-img img{
+    width:100%;
+    border-radius: 10px;
+    max-width:100%;
+    max-height:100%;
+}
+.pamatinfo-profils{
+    flex-basis: 100%;
+    align-self: center;
+}
+.pamatinfo-profils h5{
+    font-weight:bolder;
+    color:rgb(42, 42, 42);
+    font-size:18px;
+    padding:10px;
+    text-decoration: none;
+}
+.pamatinfo-profils ul li{
+    color:rgb(42, 42, 42);
+    font-size:100%;
+    padding:10px;
+    padding-left:30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.pamatinfo-profils ul li a{
+    color:rgb(42, 42, 42);
+    font-size:100%;
+    padding:5px;
+    padding-left:0px;
+    text-decoration: none;
+}
+.pamatinfo-profils p{
+    color:rgb(42, 42, 42);
+    text-align: justify;
+    font-size:100%;
+    padding:10px;
+    text-decoration: none;
+    line-height: normal;
+    text-indent: 15px
+}
+/*PROFILE SECTION BEIDZAS*/
+/*BOOKS DISPLAYED ON PROFILE SECTION BELOW*/
+.displayed-books{
+    flex-basis: 75%;
+    align-self: center;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-evenly;
+    align-content: center;
+    gap:5px;
+    margin:10px;
+}
+/*h4.text-center{  /*Rekomendētās grāmatas virsraksts- nav izmantots
+    padding-top:10px;
+    font-size:24px;
+    margin-bottom:10px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+*/
+
+/*Grāmatu izkārtojums iekšā ul
+.displayed-books .books-on-display ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-content:center;
+    gap:70px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:5%;
+    margin-bottom:9%;
+}*/
+
+.book-on-display ul li{
+    position:relative;
+    list-style-type: none;
+}
+.book-head{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color:rgba(87, 87, 87, 0.85);
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    opacity:0.8;
+}
+.book-on-display ul li a{
+    text-decoration: none;
+}
+.atsauksme-profila{
+    position:absolute;
+    bottom:0px;
+    background-color:rgb(255, 255, 255, 0.8);
+    text-align:center;
+    width:88%;
+    height:10%;
+    padding:15px;
+}
+.atsauksme-profila h5{
+    font-weight:bolder;
+    color:rgb(42, 42, 42);
+    font-size:18px;
+    text-transform:uppercase;
+    padding-bottom:10px;
+}
+.atsauksme-profila a{
+    color:rgb(110, 110, 110);
+    font-size:14px;
+}
+.atsauksme-profila a:hover{
+    color:rgb(63, 63, 63);
+    font-size:14px;
+    font-weight:bold;
+}
+.book-on-display ul li a img{
+    width:230px;
+    border-radius: 10px;
+}
+.book-on-display ul li a:hover > .atsauksme-profila{
+    background-color:rgb(242, 213, 26, 0.8);
+}
+.book-on-display ul li a:hover > .atsauksme-profila h5{
+    color:yellow;
+}
+.book-on-display ul li a:hover > .book-head{
+    opacity:1;
+}
+/*BOOKS DISPLAYED ON PROFILE SECTION ENDS*/

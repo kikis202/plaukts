@@ -1,0 +1,45 @@
+.big-logo{
+    justify-content: center;
+    margin:auto;
+
+    width:22.5vw;
+    justify-content: center;
+    margin-top:5rem;
+
+}
+.big-logo img{
+    width:100%;
+    opacity:40%;
+}
+.big-logo p{
+    margin-top: 1rem;
+    font-size:30px;
+    text-align: center;
+    color:rgb(163, 163, 163);
+}
+.big-logo .sup{
+    font-size: .83em;
+    vertical-align: super;
+}
+.kiaa{
+    justify-content: center;
+    margin:auto;
+
+    width:22.5vw;
+    margin-top:2rem;
+
+}
+.kiaa a{
+    margin:auto;
+    margin-bottom:1rem;
+    background-color: rgb(141, 141, 141);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display:block;
+    text-align:center;
+}

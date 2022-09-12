@@ -1,0 +1,93 @@
+/*BOOK SEARCH FORM BELOW*/
+.search-book {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+#autors-meklet {
+    flex-basis: auto;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+#nosaukums-meklet {
+    flex-basis: auto;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: #f1f1f1;
+}
+input.tabula-button,
+.tabula-button {
+    width: fit-content;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.form-button {
+    flex-basis: auto;
+    background-color: rgb(165, 165, 165);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+#book-search-button:hover {
+    flex-basis: auto;
+    background-color: rgb(94, 94, 94);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*BOOK SEARCH FORM ENDS*/
+/*PIEVIENOT JAUNU GRĀMATU STARTS*/
+.search-book button {
+    width: fit-content;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.search-book button:hover {
+    width: fit-content;
+    background-color: rgb(99, 99, 99);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*PIEVIENOT JAUNU GRĀMATU ENDS*/
+.search-results img {
+    max-height: 6em;
+}

@@ -1,0 +1,91 @@
+/*    Top navbar start    */
+@import url("https://fonts.googleapis.com/css2?family=Joan&display=swap");
+body {
+    /*fonts nemainās, par to domā vēlāk*/
+    font-family: "Joan";
+    font-size: 12px;
+}
+#top-menu {
+    opacity: 70%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: rgb(200, 200, 200);
+    transition: top 0.3s;
+    height: 4rem; /*relative size to the font size of the root  element(body font size)*/
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 2px 4px 0;
+    border-color: rgb(51, 51, 51);
+}
+
+a.redirect,
+a.redirect:hover {
+    color: white;
+    text-decoration: none;
+}
+
+ul.parent-menu {
+    list-style-type: none;
+    margin: 16px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.upper-menu-items {
+    float: left;
+    text-align: center;
+}
+li.upper-menu-items sup {
+    font-size: 0.83em;
+    vertical-align: super;
+}
+
+.shop-name-acent {
+    color: black;
+}
+
+li.upper-menu-items .active.redirect,
+li.upper-menu-items:hover,
+li.upper-menu-items:focus-within,
+li.upper-menu-items a:hover {
+    color: black;
+    text-shadow: 2px;
+    font-weight: bolder;
+}
+
+li.upper-menu-items a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 120%;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+#page-name {
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+/*Top navbar end*/
+/*Bottom Footer Start*/
+footer {
+    color: antiquewhite;
+    opacity: 70%;
+    margin-top: 15px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    height: 30px;
+}
+footer p {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+/*Bottom Footer End*/

@@ -1,0 +1,1 @@
+<footer><p class="footer">&copy; 2022 Copyright: Grāmatu Plaukts</p></footer>
